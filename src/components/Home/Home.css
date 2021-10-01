@@ -1,0 +1,17 @@
+#background-img{
+    background-image: url('../../images/banner.png');
+    width: 100%;
+    height: 500px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.meal-item{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    margin: 0 40px;
+}
+.spinner{
+    text-align: center;
+}
